@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: 100px auto;
+  grid-template-areas: "menu" "content";
+}
+
+#painel {
+  grid-area: menu;
+  border: 1px solid red;
+}
+
+#root {
+  grid-area: content;
+}
